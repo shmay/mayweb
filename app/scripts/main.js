@@ -9,7 +9,9 @@ $(function() {
   //var pin = '222';
 
   var env = bowser.ios ? 'ios' : bowser.android ? 'android' : undefined;
-  var appleStore = 'https://itunes.apple.com/us/app/maybeso/id705613904?mt=8';
+  var appleStore = 'https://itunes.apple.com/us/app/maybe./id1025357487?mt=8';
+
+  //1025357487
   //var androidMarket = 'https://play.google.com/store/apps/details?id=com.homesliceapp&hl=en';
 
   if (pin) {
@@ -42,7 +44,6 @@ $(function() {
       setTimeout(function() {
         document.location.href = m;
       }, 100);
-
     }
   });
 
